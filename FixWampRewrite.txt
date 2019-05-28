@@ -1,0 +1,12 @@
+#Solucion al problema con archivo .htaccess para que funcione RewriteEngine
+#Activar Modulo mod_rewrite
+•Click Izquierdo en logo de Wamp.
+•Ir a opcion de 'Apache'.
+•Abrir httpd.conf.
+•Buscar 'LoadModule rewrite_module modules/mod_rewrite.so' y quitar el comentario '#' para habilitarlo.
+•Buscar 'AllowOverride' en el archivo y cambiar todas las opciones de 'none' a 'all'.
+
+•Click Izquierdo en logo de Wamp.
+•Ir a opcion de 'Apache'.
+•Ir a opcion de 'Apache Modules'.
+•Bucar 'rewrite_module' y marcar con palomita verde para activar.
